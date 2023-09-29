@@ -4,9 +4,7 @@ import json
 import requests
 
 scanner = nmap.PortScanner()
-
 client = kubernetes.client.CoreV1Api()
-
 nodes = client.list_node()
 
 def check_nvd(ip):
