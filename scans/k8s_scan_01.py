@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import nmap
 import kubernetes
 import json
